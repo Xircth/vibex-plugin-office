@@ -4,9 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "generate-skills": "node scripts/generate-skills.mjs",
     "validate": "node ../VibeX/packages/plugin-cli/dist/cli.js validate",
     "test": "node ../VibeX/packages/plugin-cli/dist/cli.js test",
-    "build": "node ../VibeX/packages/plugin-cli/dist/cli.js build",
+    "build": "node scripts/generate-skills.mjs && node ../VibeX/packages/plugin-cli/dist/cli.js build",
     "pack": "node ../VibeX/packages/plugin-cli/dist/cli.js pack"
   }
 }
