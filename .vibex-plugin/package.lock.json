@@ -1,21 +1,21 @@
 {
   "lockVersion": 1,
-  "packageDigest": "769a6b423fdea2ff56113effe10ba5b060139a72b22cba0aa1c0bfe8e3fb5249",
+  "packageDigest": "2ab0c71f43bc2b7ddca1f3ac0e6c793ee5c8729d587a5ed24f3e95a336921388",
   "files": [
     {
       "path": ".gitignore",
-      "size": 30,
-      "sha256": "bbff771e663eb3bf6d014b90a6904fd19e56c495ff1ea371a3519a7574a428fa"
+      "size": 38,
+      "sha256": "9df620e533175ab9638249689aed4a3ec57319b274686352e75f9499735da45e"
     },
     {
       "path": ".vibex-plugin/content.index.json",
-      "size": 1053,
-      "sha256": "a623a9fb5ccfa380d28a31845f39fd85a0af257a348877a08549fb7c96122eb5"
+      "size": 2049,
+      "sha256": "90e64007dcf28447d7431278d2398b8ef9f45bc760c58ed72cd7c8853ab324ae"
     },
     {
       "path": ".vibex-plugin/plugin.json",
-      "size": 3583,
-      "sha256": "5d05e3424163ed31dd6521656f4aa247e30eb56d9852f90a9ee72c397f0fa109"
+      "size": 5174,
+      "sha256": "6b9349de1f1f8417bea5d833a27eafa322a0fbcd25a2eb00f55a65b062e51d43"
     },
     {
       "path": "LICENSE",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 2828,
-      "sha256": "ffbcdaf4bd9a51fb9501c5abed4ec87491e2b35f91da5e590e06159e90574e5c"
+      "size": 3236,
+      "sha256": "bb0a9f10a2d6c11fe156406857697a2b18d88dd17861000bb8ff55822a5c5db5"
     },
     {
       "path": "assets/icon.svg",
@@ -33,49 +33,84 @@
       "sha256": "353b6a8ee2b75839a94d1b42e5aef65a6bb99ac56b31f34c34aec53e70686f08"
     },
     {
-      "path": "contents/skills/office-docx/SKILL.md",
-      "size": 1884,
-      "sha256": "fdba561df5d4a209572f844ce0fb13d6b27f2d6de74ddb4d9523d4f70046ddda"
+      "path": "contents/skills/academic-paper/SKILL.md",
+      "size": 45344,
+      "sha256": "dda327df7f845aef76a12063ccc4acf8ac6b0bfe810081a548a5236df6a8b6e4"
     },
     {
-      "path": "contents/skills/office-pptx/SKILL.md",
-      "size": 1661,
-      "sha256": "f3bf1aeadd5a7841636ceb6c54ce1db645077f73288dbb18e0abc7352ee7eb75"
+      "path": "contents/skills/data-dashboard/SKILL.md",
+      "size": 29512,
+      "sha256": "48d32a59f1f49f8208aa783cbb6aeea41ef1ca50435e477348c78ed822223aeb"
     },
     {
-      "path": "contents/skills/office-xlsx/SKILL.md",
-      "size": 1752,
-      "sha256": "727f7496c80ab29ad7808f02d423432772b1a1d74b7f15cc838bd65bc5738275"
+      "path": "contents/skills/excel/SKILL.md",
+      "size": 34944,
+      "sha256": "e8019d177c06c14e414a2a119b28886d8f5ca2f8fa843a7f15a614376d975dfe"
+    },
+    {
+      "path": "contents/skills/financial-model/SKILL.md",
+      "size": 47751,
+      "sha256": "275acf937fcbcea6de85e42f5cc313493b187bf6548e1540b69a01a983e2f559"
+    },
+    {
+      "path": "contents/skills/morph-ppt-3d/SKILL.md",
+      "size": 25350,
+      "sha256": "bf1bfc52dd5626edafd1bd62b7bde74ea29277ad95c490b7e4b3cfa58570ff36"
+    },
+    {
+      "path": "contents/skills/morph-ppt/SKILL.md",
+      "size": 48950,
+      "sha256": "01500c569c5d7ef018e4a9735b6a6572a48d2c2e43c19bf9fb185458bb40a3d4"
+    },
+    {
+      "path": "contents/skills/pitch-deck/SKILL.md",
+      "size": 66374,
+      "sha256": "0f09571363b14bdbb33fe590b390ee95c01cf34d47780b4c552b581aaf91c735"
+    },
+    {
+      "path": "contents/skills/pptx/SKILL.md",
+      "size": 44488,
+      "sha256": "340d511ad571c2b9f5a0720c9311c20522bd9c560e303e115f8a4acafe447b4e"
+    },
+    {
+      "path": "contents/skills/word-form/SKILL.md",
+      "size": 46900,
+      "sha256": "e5b878a8258188a0ebe554912f9c76b16a37f39301895ff8df24173d3eec9f68"
+    },
+    {
+      "path": "contents/skills/word/SKILL.md",
+      "size": 42517,
+      "sha256": "9c4f157bf5880196ead220ee976d1b4f1243ac8441df7ed03f7c49993b9d4ae0"
     },
     {
       "path": "contents/workflows/analyze-spreadsheet/workflow.json",
-      "size": 418,
-      "sha256": "c56396537fc5c401f457c08935aaf993fae293cafda7761bc83b3a5137e60a84"
+      "size": 504,
+      "sha256": "4def3221ab18d988fe5875c0644e9f8818e0f72e1b65c3f8e9f78975c8671231"
     },
     {
       "path": "contents/workflows/create-document/workflow.json",
-      "size": 408,
-      "sha256": "f90c580c74088a101ba6a073385b3eeec281a942bb8a959563b8ad962ff97d49"
+      "size": 493,
+      "sha256": "b0ddef606ce62ce697a67e803de9e12e4c369eb0e420d0fe912c506e71684da3"
     },
     {
       "path": "contents/workflows/create-presentation/workflow.json",
-      "size": 409,
-      "sha256": "ce53de417964f87b8a8f1cad567c99e5b4bb5c5d511c30fdb56d8df9b5682969"
+      "size": 494,
+      "sha256": "12112090fb3a49cbcd9268cc4454cfab7544c19175290abb31d4825039d86b48"
     },
     {
       "path": "contents/workflows/generate-spreadsheet/workflow.json",
-      "size": 411,
-      "sha256": "f7f0a577ed15b9e79c0b2883fed8d5dec63c6012e8cb4d06c204ce350d0941af"
+      "size": 497,
+      "sha256": "915b7a8da2b8b39c06e41da661696ede2844fcfa97414e58b7b13605d00e4628"
     },
     {
       "path": "contents/workflows/modify-document/workflow.json",
-      "size": 413,
-      "sha256": "15adefb31984f8f6b05d4e649ddad5588c20154fbeb7e7b70721ebfb58c8c48f"
+      "size": 498,
+      "sha256": "8742d6016e5ca4896a7b69580acad4e62d40e98524fc847f9462975204c10bdd"
     },
     {
       "path": "contents/workflows/modify-presentation/workflow.json",
-      "size": 414,
-      "sha256": "9a308999cc8855ba5256bd2bf248d79ed42482b377a50ae6388343acd61fa87f"
+      "size": 499,
+      "sha256": "b5abbce1b2209967b40dc35500f171c8c2591e00c4500947b7244b9c0885718c"
     },
     {
       "path": "depends/runtimes/officecli.json",

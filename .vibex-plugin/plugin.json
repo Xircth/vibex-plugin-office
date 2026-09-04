@@ -7,7 +7,10 @@
   "version": "3.0.0",
   "name": "VibeX Office",
   "readme": "README.md",
-  "engines": { "vibex": ">=0.1.3 <1.0.0", "pluginSdk": "^1.0.0" },
+  "engines": {
+    "vibex": ">=0.1.3 <1.0.0",
+    "pluginSdk": "^1.0.0"
+  },
   "content": {
     "root": "contents",
     "index": ".vibex-plugin/content.index.json"
@@ -42,22 +45,104 @@
   },
   "integrations": [
     {
-      "id": "office-pptx",
+      "id": "pptx",
       "kind": "content.skill",
-      "resource": "contents/skills/office-pptx",
-      "targets": ["codex", "claude-code", "acp"]
+      "resource": "contents/skills/pptx",
+      "targets": [
+        "codex",
+        "claude-code",
+        "acp"
+      ]
     },
     {
-      "id": "office-docx",
+      "id": "word",
       "kind": "content.skill",
-      "resource": "contents/skills/office-docx",
-      "targets": ["codex", "claude-code", "acp"]
+      "resource": "contents/skills/word",
+      "targets": [
+        "codex",
+        "claude-code",
+        "acp"
+      ]
     },
     {
-      "id": "office-xlsx",
+      "id": "excel",
       "kind": "content.skill",
-      "resource": "contents/skills/office-xlsx",
-      "targets": ["codex", "claude-code", "acp"]
+      "resource": "contents/skills/excel",
+      "targets": [
+        "codex",
+        "claude-code",
+        "acp"
+      ]
+    },
+    {
+      "id": "morph-ppt",
+      "kind": "content.skill",
+      "resource": "contents/skills/morph-ppt",
+      "targets": [
+        "codex",
+        "claude-code",
+        "acp"
+      ]
+    },
+    {
+      "id": "morph-ppt-3d",
+      "kind": "content.skill",
+      "resource": "contents/skills/morph-ppt-3d",
+      "targets": [
+        "codex",
+        "claude-code",
+        "acp"
+      ]
+    },
+    {
+      "id": "pitch-deck",
+      "kind": "content.skill",
+      "resource": "contents/skills/pitch-deck",
+      "targets": [
+        "codex",
+        "claude-code",
+        "acp"
+      ]
+    },
+    {
+      "id": "academic-paper",
+      "kind": "content.skill",
+      "resource": "contents/skills/academic-paper",
+      "targets": [
+        "codex",
+        "claude-code",
+        "acp"
+      ]
+    },
+    {
+      "id": "data-dashboard",
+      "kind": "content.skill",
+      "resource": "contents/skills/data-dashboard",
+      "targets": [
+        "codex",
+        "claude-code",
+        "acp"
+      ]
+    },
+    {
+      "id": "financial-model",
+      "kind": "content.skill",
+      "resource": "contents/skills/financial-model",
+      "targets": [
+        "codex",
+        "claude-code",
+        "acp"
+      ]
+    },
+    {
+      "id": "word-form",
+      "kind": "content.skill",
+      "resource": "contents/skills/word-form",
+      "targets": [
+        "codex",
+        "claude-code",
+        "acp"
+      ]
     },
     {
       "id": "create-presentation",
@@ -93,7 +178,11 @@
       "id": "office-file-opener",
       "kind": "file.opener",
       "label": "Office Preview",
-      "extensions": ["docx", "xlsx", "pptx"],
+      "extensions": [
+        "docx",
+        "xlsx",
+        "pptx"
+      ],
       "mediaTypes": [
         "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
@@ -114,11 +203,20 @@
       "maxConcurrentPreviews": 4,
       "handler": "office-preview",
       "process": {
-        "argv": ["watch", "{artifact}", "--port", "{port}"],
+        "argv": [
+          "watch",
+          "{artifact}",
+          "--port",
+          "{port}"
+        ],
         "readyTimeoutSeconds": 15,
-        "environment": { "OFFICECLI_SKIP_UPDATE": "1" }
+        "environment": {
+          "OFFICECLI_SKIP_UPDATE": "1"
+        }
       }
     }
   ],
-  "interface": { "icon": "assets/icon.svg" }
+  "interface": {
+    "icon": "assets/icon.svg"
+  }
 }
